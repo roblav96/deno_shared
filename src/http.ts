@@ -1,7 +1,7 @@
 import * as async from 'https://deno.land/std/async/mod.ts'
 import * as what from 'https://deno.land/x/is_what/src/index.ts'
 import arrify from 'https://esm.sh/arrify?dev'
-import Db from '../adapters/storage.ts'
+import Db from './storage.ts'
 import deepmerge from 'https://esm.sh/deepmerge?dev'
 import hashIt from 'https://esm.sh/hash-it?dev'
 import { getCookies } from 'https://deno.land/std/http/cookie.ts'
